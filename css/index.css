@@ -1,0 +1,38 @@
+.products .card{
+    overflow: hidden;
+    transition: 0.5s;
+    width: 100% !important;
+}
+.products .card:hover{
+    box-shadow: 0 0 7px 0 #ddd;
+}
+.products .card img{
+    transition: 0.5s;
+    /* border-bottom: 1px solid #ddd; */
+    padding: 30px 20px;
+}
+
+.products .card img:hover{
+    transform: scale(1.05);
+}
+.products .card a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+.products .card a:hover{
+    color: #0d6efd;
+}
+.products .card a:focus{
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.products .card .rates span i.colored{
+    color: gold;
+}
+
+@media (max-width:768px){
+    .products .card{
+        margin-bottom: 16px;
+    }
+}
